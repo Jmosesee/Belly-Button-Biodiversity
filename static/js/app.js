@@ -16,7 +16,8 @@ function buildMetadata(sample) {
       selector.append("p").text(e[i][0] + ": " + e[i][1]);
     }
     // BONUS: Build the Gauge Chart
-    // buildGauge(data.WFREQ);
+    console.log(response.WFREQ);
+    buildGauge(response.WFREQ);
   })
 }
 
